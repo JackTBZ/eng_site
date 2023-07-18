@@ -1,0 +1,75 @@
+*{margin:0;padding:0;}
+
+body
+{
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient();
+}
+
+.header
+{
+    background-image: url("../media/bg1.jpg");
+    background-size: 100vw 300px;
+    background-position: center;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header img
+{
+    width: 30vw;
+    height: auto;
+}
+
+.blogs
+{
+    width: 100vw;
+    height: auto;
+}
+
+.footer
+{
+    background-image: linear-gradient(to bottom, #3cff00, #2cbd00);
+}
+
+.blog1, .blog2, .left, .right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog1, .blog2
+{
+    margin: 30px;
+}
+
+.blog1 .left, .blog2 .right
+{
+    width: 60%;
+    height: auto;
+}
+
+.blog1 .right, .blog2 .left
+{
+    width: 40%;
+    height: auto;
+}
+
+.txtbox
+{
+    width: 80%;
+    text-align: center;
+}
+
+.right img, .left img
+{
+    max-width: 80%;
+}
