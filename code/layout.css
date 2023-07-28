@@ -73,3 +73,37 @@ body
 {
     max-width: 80%;
 }
+
+.footer
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.pagebutton
+{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2cbd00;
+    border: 5px solid #000000;
+}
+
+.pagebutton a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+.pagebutton:hover
+{
+    border: 5px dashed #000000;
+    border-radius: 10px;
+}
+
+.trollhome, .trollhome img
+{
+    height: 100vh;
+    width: 100vw;
+}
